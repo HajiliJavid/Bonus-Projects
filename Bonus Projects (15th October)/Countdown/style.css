@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://s3-alpha-sig.figma.com/img/7122/c5e6/f9be70d4dfc5e02c8052c448b33f80a1?Expires=1730073600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HTllHgjWMFv0J6hvxm7Z39o4q5BkJTBcWLaUdeyQsUNriTWuRXUNeVlOmKvuGlXkWoGKtM6crwR-LeDX0Wsc--G8Pe99yvjaZjj5vUN5-NAvMY6fw4FhNe6DcwG9oIsu1SHNZSWwgtO9fi6dYpLMAoDREtVuOxvtSTM5QQ5m~TMmgpkwDPnOeXv9ORWqHMp4nTMtPrzb65sin5yJ0eFM7ZKwdjcXn~P8mqSM0kUe7DD6cIoCrtcIYUnXiaSNCyo5J-XGqslDd0lIb~Za4mNWvOc2glpi8a5HwZMICdLGgIEKoLzfIAFugRKUyndDNzYOxjdPQeCydgBrj6thKNSPEg__);
+    background-position: calc(-500px);
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    text-align: center;
+    padding-top: 16px;
+}
+
+body .container{
+    height: 97.5vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 12px;
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+body .container h1{
+    width: 754px;
+    height: 72px;
+    font-family:  "Gafata", sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 71.87px;
+    letter-spacing: 0.07em;
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background: transparent;
+
+}
+
+body .container h3{
+    width: 1140px;
+    height: 108px;
+    font-family:  "Gafata", sans-serif;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 107.81px;
+    letter-spacing: 0.07em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+body .container h3 span{
+    color: rgba(117, 217, 255, 1);
+}
+
+
+.timer{
+    display: flex;
+    flex: row;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+    margin-top: 24px ;
+    margin-bottom: 32px ;
+}
+.timer .colonContainer{
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 24px;
+
+}
+
+
+.timer .colonContainer .colon{
+    height: 20%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family:  "Gafata", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 53.9px;
+    letter-spacing: 0.07em;
+    color: #ffffff;
+}
+.timer .prop{
+    display: flex;
+    flex-direction: column;
+}
+
+.days, .hours, .minutes, .seconds{
+    font-family:  "Gafata", sans-serif;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 107.81px;
+    letter-spacing: 0.07em;
+    text-align: center;
+    color: white;
+}
+
+.daysName, .hoursName, .minutesName, .secondsName{
+    font-family:  "Gafata", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40.43px;
+    letter-spacing: 0.07em;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+
+
+
+
+.line{
+    width: 946px;
+    height: 7px;
+    background-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 49.08%, rgba(255, 255, 255, 0) 99.31%);
+    margin: 0 auto;
+    
+}
+
+
+.inputs{
+    width: 562px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 32px;
+
+}
+
+.inputs .inputPart{
+    width: 367px;
+    height: 50px;
+    border: 0.5px solid rgba(255, 255, 255, 0.53);
+    background: rgba(11, 7, 34, 0.19);
+    font-family:  "Gafata", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26.95px;
+    letter-spacing: 0.07em;
+    padding-left: 8px;
+    color: white;
+
+}
+
+
+.inputs .btn{
+    width: 149px;
+    height: 50px;
+    color: white;
+    background: rgba(11, 7, 34, 0.52);
+    border: 1px solid rgba(255, 255, 255, 0.53);
+    font-family:  "Gafata", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26.95px;
+    letter-spacing: 0.07em;
+    text-align: center;
+    cursor: pointer;
+}

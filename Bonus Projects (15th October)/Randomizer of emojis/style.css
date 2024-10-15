@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: salmon;
+    justify-content: center ;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+}
+
+body div{
+    width: 100vw ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+
+body div h1{
+    font-size: 16px;
+    color: aliceblue;
+    display: block;
+    font-size: 1.5em;
+    margin-block: 0.83em;
+    margin-inline: 0px;
+    font-weight: bold;
+}
+
+body div button{
+    font-size: 80px;
+    border: none;
+    background: rgb(255, 255, 255, .2);
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    -webkit-filter: grayscale(0);
+    filter: none;
+    transition: all ease 0.3s;
+}
+
+button:hover {
+    filter: gray; 
+    -webkit-filter: grayscale(1); 
+    filter: grayscale(1); 
+  }
+
+
+body div span{
+    margin-top: 16px;
+    font-weight: 600;
+    color: darkblue;
+}
+
